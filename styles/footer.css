@@ -1,0 +1,25 @@
+.footer {
+    margin-top: 100px;
+    background-color: #111820;
+    border-top: 1px solid #1d2533;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 18px 70px;
+    background-color: #1a202e;
+    border: 1px solid rgb(103, 103, 103);
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.card > .big {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+}

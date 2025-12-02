@@ -1,0 +1,26 @@
+/* Search */
+.search-input {
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-container:hover .search-input {
+    display: block;
+}
+
+.search-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.right-column > .search-container > .search-icon {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+    border: none;
+    white-space: nowrap;
+}

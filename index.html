@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
+    <script src="https://kit.fontawesome.com/8fc1fa6525.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/buttons.css"> 
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/dropdown.css">
+    <link rel="stylesheet" href="styles/search.css">
+</head>
+
+<body>
+    <div class="navigation-wrapper">
+        <div class="left-column">
+            <div class="logo">
+                <img src="images/logos/codepen-wordmark-display-inside-white@10x.png" alt="Logo">
+            </div>
+        </div>
+
+        <div class="center-column">
+            <div class="nav-links-title">
+                EXPLORE
+            </div>
+
+            <div class="links-wrapper">
+                <div class="nav-link">
+                    <a href="#">Pens</a> 
+                </div>
+                
+                <div class="nav-link">
+                    <a href="#">Projects</a>
+                </div>
+                
+                <div class="nav-link">
+                    <a href="#">Posts</a>
+                </div>
+                
+                <div class="nav-link">
+                    <a href="#">Collections</a>
+                </div>
+
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <span>Spark</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                        
+                    <div class="dropdown-content">
+                        <a href="#">Spark Subscribtion</a>
+                        <a href="#">Spark Feed</a>
+                        <a href="#">Spark Sponsor a week</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+
+        <div class="right-column">
+            <div class="nav-btn-wrapper">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <span>Create</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                        
+                    <div class="dropdown-content">
+                        <a href="#">html</a>
+                        <a href="#">css</a>
+                        <a href="#">js</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-container">
+                <button class="search-icon" onclick="toggleSearch()">
+                    <i class="fa-solid fa-magnifying-glass"></i>  
+                </button>
+                <input type="text" class="search-input" placeholder="Search...">
+            </div>
+
+            <div class="nav-btn-wrapper">
+                <button type="btn" class="btn">Log In</button>
+            </div>
+
+            <div class="nav-btn-wrapper">
+                <button type="btn" class="btn">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <div class="left-column">
+            <div class="top-heading">
+                <h1>CodePen is a <strong>social development environment</strong> for front-end designers and developers. &#128075;</h1>
+            </div>
+            
+            <div class="bottom-heading">
+                <h2>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</h2>
+            </div>
+
+            <div class="buttons">
+                <div class="sign-up-btn">
+                    <button type="button" class="btn">Sign Up for Free</button>
+                </div>
+
+                <div class="learn-more-btn">
+                    <button type="button" class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="heading-wrapper">
+                <h3>This is <a href="">CodePen Projects</a>!</h3>
+            </div>
+
+            <img src="/images/websites/lmr7a8E.png" alt="website" class="hero-preview">
+        </div>
+
+    </div>
+
+    <div class="footer">        
+        <div class="feature-cards">
+            <div class="card">CodePen for <strong class="big">TEAMS</strong></div>
+            <div class="card">CodePen for <strong class="big">EDUCATION</strong></div>
+            <div class="card">CodePen for <strong class="big">PRIVACY</strong></div>
+            <div class="card">CodePen for <strong class="big">WRITING</strong></div>
+        </div>
+    </div>
+
+</body>
+</html>

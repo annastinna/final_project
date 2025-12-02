@@ -1,0 +1,64 @@
+.hero-section > .left-column,
+.hero-section > .right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 90px;
+}
+
+/* LEFT SIDE */
+.hero-section .left-column {
+    width: 50%;
+}
+
+.top-heading h1 {
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #d5dee7;
+}
+
+.top-heading strong {
+    font-weight: 800;
+    color: #fff;
+}
+
+.bottom-heading h2 {
+    margin-top: 18px;
+    color: #9ca9bb;
+    font-size: 20px;
+    max-width: 90%;
+}
+
+.buttons {
+    display: flex;
+    gap: 18px;
+    margin-top: 28px;
+}
+
+/* RIGHT SIDE */
+.hero-section .right-column {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.heading-wrapper h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.heading-wrapper a {
+    color: rgb(180, 218, 252);
+}
+
+/* IMAGE SECTION */
+.hero-preview {
+    width: 94%;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+}

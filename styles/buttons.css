@@ -1,0 +1,25 @@
+.btn {
+    background-color: #2c303a;
+    padding: 12px 20px;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.15s ease;
+}
+
+.sign-up-btn .btn {
+    background-color: rgb(97, 206, 121);
+    padding: 21px 51px;
+    color: black;
+    font-weight: lighter;
+}
+
+.learn-more-btn .btn {
+    background-color: rgb(17, 17, 17);
+    padding: 21px 51px;
+    color: white;
+    font-weight: bold;
+}
